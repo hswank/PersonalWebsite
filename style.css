@@ -1,0 +1,161 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url("background_img.jpg");
+    background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#headshot{
+    width: 100%;
+    background-image: url("headshot-img.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    position: fixed;      
+}
+#headshot{
+    top: 0;
+}
+#headshot{
+    margin: 0 auto; 
+}
+
+img {
+    border: 15px solid rgb(0, 0, 0);
+}
+
+div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.grid-child_black {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.grid-child_img {
+    padding-top: 70%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    
+}
+
+#navi {
+    background-color: black;
+    width: 1000px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lime;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 250px;
+    padding: 0%;
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: black;
+}
+  
+.container {
+    border-radius: 5px;
+    color: black;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.about-box {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.about-box a:link {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    height: 100px;
+    padding-top: 100px;
+}
+
+div section {
+    margin: auto;
+}
